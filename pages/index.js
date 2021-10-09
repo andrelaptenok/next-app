@@ -1,11 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Heading from "../components/Heading";
 
-const Home = () => {
-  return (
-    <h1>Hello World!</h1>
-  )
-}
+const Home = () => (
+  <Heading text="Hello World!"/>
+)
 
 export default Home

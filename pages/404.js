@@ -1,10 +1,10 @@
-const Error = () => {
-  return (
-    <>
-      <h1>404</h1>
-      <h2>Something is going wrong...</h2>
-    </>
-  )
-}
+import Heading from "../components/Heading";
+
+const Error = () => (
+  <>
+    <Heading text="404"/>
+    <Heading tag="h2" text="Something is going wrong..."/>
+  </>
+)
 
 export default Error
